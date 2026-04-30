@@ -1,6 +1,8 @@
-# Torii
-
-A minimal macOS menu bar app that connects your Mac to the Tor network with one click.
+<div align="center">
+  <img src="assets/AppIcon256.png" width="96" alt="Torii icon">
+  <h1>Torii</h1>
+  <p>A minimal macOS menu bar app that connects your Mac to the Tor network with one click.</p>
+</div>
 
 ![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue) ![Swift 6](https://img.shields.io/badge/Swift-6.0-orange) ![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-aarch64-lightgrey)
 
@@ -8,9 +10,13 @@ A minimal macOS menu bar app that connects your Mac to the Tor network with one 
 
 ## Screenshots
 
-| Connected | Disconnected |
-|---|---|
-| ![Connected](assets/screenshots/connected.png) | ![Disconnected](assets/screenshots/disconnected.png) |
+<div align="center">
+  <img src="assets/screenshots/connected.png" width="280" alt="Connected">
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/disconnected.png" width="280" alt="Disconnected">
+</div>
+
+> Save your screenshots as `assets/screenshots/connected.png` and `assets/screenshots/disconnected.png`.
 
 ## Features
 
