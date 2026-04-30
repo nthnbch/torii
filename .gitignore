@@ -1,0 +1,48 @@
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===========================
+# Xcode
+# ===========================
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/swiftpm/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ===========================
+# Swift Package Manager
+# ===========================
+.build/
+.swiftpm/
+
+# ===========================
+# Build output
+# ===========================
+build/
+
+# ===========================
+# Editor / OS misc
+# ===========================
+*.swp
+*.swo
+*~
+.idea/

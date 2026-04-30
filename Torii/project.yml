@@ -1,0 +1,70 @@
+name: Torii
+options:
+  bundleIdPrefix: com.torii
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "16"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_IDENTITY: "-"
+    OTHER_SWIFT_FLAGS: ""
+
+targets:
+  Torii:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: Torii
+        excludes:
+          - "**/*.md"
+    info:
+      path: Torii/Info.plist
+    entitlements:
+      path: Torii/Torii.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.torii.app
+        PRODUCT_NAME: Torii
+        INFOPLIST_FILE: Torii/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Torii/Torii.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_IDENTITY: "-"
+        SWIFT_VERSION: "6.0"
+    postBuildScripts:
+      - name: Copy Tor Binaries
+        script: |
+          set -e
+          RESOURCES="${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Resources"
+          SOURCE="${SRCROOT}/../tor-expert-bundle"
+
+          mkdir -p "${RESOURCES}/pluggable_transports"
+          mkdir -p "${RESOURCES}/data"
+
+          cp -f "${SOURCE}/tor/tor" "${RESOURCES}/tor"
+          cp -f "${SOURCE}/tor/libevent-2.1.7.dylib" "${RESOURCES}/libevent-2.1.7.dylib"
+          cp -f "${SOURCE}/tor/pluggable_transports/lyrebird" "${RESOURCES}/pluggable_transports/lyrebird"
+          cp -f "${SOURCE}/tor/pluggable_transports/conjure-client" "${RESOURCES}/pluggable_transports/conjure-client"
+          cp -f "${SOURCE}/data/geoip" "${RESOURCES}/data/geoip"
+          cp -f "${SOURCE}/data/geoip6" "${RESOURCES}/data/geoip6"
+
+          chmod +x "${RESOURCES}/tor"
+          chmod +x "${RESOURCES}/pluggable_transports/lyrebird"
+          chmod +x "${RESOURCES}/pluggable_transports/conjure-client"
+
+          # Strip ALL extended attributes (quarantine, provenance, etc.) then ad-hoc sign
+          for f in \
+            "${RESOURCES}/tor" \
+            "${RESOURCES}/libevent-2.1.7.dylib" \
+            "${RESOURCES}/pluggable_transports/lyrebird" \
+            "${RESOURCES}/pluggable_transports/conjure-client"; do
+            xattr -cr "$f"
+            codesign --force --sign - "$f"
+          done

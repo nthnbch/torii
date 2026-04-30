@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0123D7FD9ECE245322E300A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4E42B36604967C045BE05A /* ContentView.swift */; };
+		39C18FA5FDAA3539F30FDE02 /* TorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B1D7F6F0ABAF53843C9FA /* TorParser.swift */; };
+		3BC334E99D0E1185E0AB2244 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E6051863D5CA967C9D16E /* UpdateChecker.swift */; };
+		570DDA58E61E170A26794612 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEAE92053E1A1CABB0C2F2 /* CountryPickerView.swift */; };
+		7C2C5513A849B48494061C05 /* TorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F49D0F920C0508CD4DEDB /* TorManager.swift */; };
+		8B02B9F84F282E259D34FD0A /* ToriiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3431310A60622AFDDB90795E /* ToriiApp.swift */; };
+		9ADF8C15F964ED201538EBA9 /* ActionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86CEA8034C130A3375580C7 /* ActionRowView.swift */; };
+		A2AF6E0867A6DC719F8A7EE4 /* BandwidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE5822DEC3609F50779EB4 /* BandwidthView.swift */; };
+		AE25484D8538DBAD86AE0265 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D630C9BC84998A072ED50B3 /* FooterView.swift */; };
+		AE3B8D2C96B2C92FA1E65B79 /* StatusHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B5D1F02A772BD76BEF7106 /* StatusHeaderView.swift */; };
+		D8FB3759FDB940B94FFCECB8 /* TorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBCD1CFC4B4BF0C7AC97C5 /* TorModels.swift */; };
+		DF33FFE15458C5044BC58AE5 /* TorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122622F7A98C48806968082F /* TorViewModel.swift */; };
+		E1C28627097671985AF618C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C23A777039C5152465402 /* Assets.xcassets */; };
+		E715E55D02A390C37B56D32E /* TorControlSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165ED9FC0EF22779F75A9EA /* TorControlSocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B1F005F8D0C2A840F4E8E40 /* Torii.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Torii.entitlements; sourceTree = "<group>"; };
+		122622F7A98C48806968082F /* TorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorViewModel.swift; sourceTree = "<group>"; };
+		18BBCD1CFC4B4BF0C7AC97C5 /* TorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorModels.swift; sourceTree = "<group>"; };
+		192F49D0F920C0508CD4DEDB /* TorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorManager.swift; sourceTree = "<group>"; };
+		19EEAE92053E1A1CABB0C2F2 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		3431310A60622AFDDB90795E /* ToriiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToriiApp.swift; sourceTree = "<group>"; };
+		3C3C23A777039C5152465402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AFE5822DEC3609F50779EB4 /* BandwidthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandwidthView.swift; sourceTree = "<group>"; };
+		5F7F553B2C88F572501B1D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6031E1F5828327914D90C431 /* Torii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D630C9BC84998A072ED50B3 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		AE4E42B36604967C045BE05A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B86CEA8034C130A3375580C7 /* ActionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRowView.swift; sourceTree = "<group>"; };
+		C17E6051863D5CA967C9D16E /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
+		D53B1D7F6F0ABAF53843C9FA /* TorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorParser.swift; sourceTree = "<group>"; };
+		D6B5D1F02A772BD76BEF7106 /* StatusHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusHeaderView.swift; sourceTree = "<group>"; };
+		E165ED9FC0EF22779F75A9EA /* TorControlSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorControlSocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C3BCF088F7A700B6CD247DF = {
+			isa = PBXGroup;
+			children = (
+				2A24CDD0550259550E6754F8 /* Torii */,
+				A2233A84FD661FCB0114A527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A24CDD0550259550E6754F8 /* Torii */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C23A777039C5152465402 /* Assets.xcassets */,
+				5F7F553B2C88F572501B1D83 /* Info.plist */,
+				0B1F005F8D0C2A840F4E8E40 /* Torii.entitlements */,
+				3431310A60622AFDDB90795E /* ToriiApp.swift */,
+				E11588BBEA02A2A98523A6B5 /* Models */,
+				BF6432369FF63F8237ED1917 /* Tor */,
+				95BDB4730DD7B14AF1B21843 /* Updates */,
+				A5B8034A8167BC5C47E37BEB /* ViewModels */,
+				47F8A50F077967635F0A9AC7 /* Views */,
+			);
+			path = Torii;
+			sourceTree = "<group>";
+		};
+		47F8A50F077967635F0A9AC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B86CEA8034C130A3375580C7 /* ActionRowView.swift */,
+				4AFE5822DEC3609F50779EB4 /* BandwidthView.swift */,
+				AE4E42B36604967C045BE05A /* ContentView.swift */,
+				19EEAE92053E1A1CABB0C2F2 /* CountryPickerView.swift */,
+				8D630C9BC84998A072ED50B3 /* FooterView.swift */,
+				D6B5D1F02A772BD76BEF7106 /* StatusHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95BDB4730DD7B14AF1B21843 /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				C17E6051863D5CA967C9D16E /* UpdateChecker.swift */,
+			);
+			path = Updates;
+			sourceTree = "<group>";
+		};
+		A2233A84FD661FCB0114A527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6031E1F5828327914D90C431 /* Torii.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B8034A8167BC5C47E37BEB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				122622F7A98C48806968082F /* TorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BF6432369FF63F8237ED1917 /* Tor */ = {
+			isa = PBXGroup;
+			children = (
+				E165ED9FC0EF22779F75A9EA /* TorControlSocket.swift */,
+				192F49D0F920C0508CD4DEDB /* TorManager.swift */,
+				D53B1D7F6F0ABAF53843C9FA /* TorParser.swift */,
+			);
+			path = Tor;
+			sourceTree = "<group>";
+		};
+		E11588BBEA02A2A98523A6B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18BBCD1CFC4B4BF0C7AC97C5 /* TorModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749B4EBE9A39AAD02B9B8CE2 /* Torii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59ECC6187B6929BA4FF6C6E /* Build configuration list for PBXNativeTarget "Torii" */;
+			buildPhases = (
+				21E852714C258C47BC2514F1 /* Sources */,
+				8B337FF642B077C20D0D13B0 /* Resources */,
+				26C4F682D5906E4CEC315382 /* Copy Tor Binaries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Torii;
+			packageProductDependencies = (
+			);
+			productName = Torii;
+			productReference = 6031E1F5828327914D90C431 /* Torii.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		774BB8139594890CA2EF19A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					749B4EBE9A39AAD02B9B8CE2 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2FD54C1BD4921584DA292C1 /* Build configuration list for PBXProject "Torii" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1C3BCF088F7A700B6CD247DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2233A84FD661FCB0114A527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749B4EBE9A39AAD02B9B8CE2 /* Torii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B337FF642B077C20D0D13B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C28627097671985AF618C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26C4F682D5906E4CEC315382 /* Copy Tor Binaries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Tor Binaries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nRESOURCES=\"${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Resources\"\nSOURCE=\"${SRCROOT}/../tor-expert-bundle\"\n\nmkdir -p \"${RESOURCES}/pluggable_transports\"\nmkdir -p \"${RESOURCES}/data\"\n\ncp -f \"${SOURCE}/tor/tor\" \"${RESOURCES}/tor\"\ncp -f \"${SOURCE}/tor/libevent-2.1.7.dylib\" \"${RESOURCES}/libevent-2.1.7.dylib\"\ncp -f \"${SOURCE}/tor/pluggable_transports/lyrebird\" \"${RESOURCES}/pluggable_transports/lyrebird\"\ncp -f \"${SOURCE}/tor/pluggable_transports/conjure-client\" \"${RESOURCES}/pluggable_transports/conjure-client\"\ncp -f \"${SOURCE}/data/geoip\" \"${RESOURCES}/data/geoip\"\ncp -f \"${SOURCE}/data/geoip6\" \"${RESOURCES}/data/geoip6\"\n\nchmod +x \"${RESOURCES}/tor\"\nchmod +x \"${RESOURCES}/pluggable_transports/lyrebird\"\nchmod +x \"${RESOURCES}/pluggable_transports/conjure-client\"\n\n# Strip ALL extended attributes (quarantine, provenance, etc.) then ad-hoc sign\nfor f in \\\n  \"${RESOURCES}/tor\" \\\n  \"${RESOURCES}/libevent-2.1.7.dylib\" \\\n  \"${RESOURCES}/pluggable_transports/lyrebird\" \\\n  \"${RESOURCES}/pluggable_transports/conjure-client\"; do\n  xattr -cr \"$f\"\n  codesign --force --sign - \"$f\"\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21E852714C258C47BC2514F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADF8C15F964ED201538EBA9 /* ActionRowView.swift in Sources */,
+				A2AF6E0867A6DC719F8A7EE4 /* BandwidthView.swift in Sources */,
+				0123D7FD9ECE245322E300A4 /* ContentView.swift in Sources */,
+				570DDA58E61E170A26794612 /* CountryPickerView.swift in Sources */,
+				AE25484D8538DBAD86AE0265 /* FooterView.swift in Sources */,
+				AE3B8D2C96B2C92FA1E65B79 /* StatusHeaderView.swift in Sources */,
+				E715E55D02A390C37B56D32E /* TorControlSocket.swift in Sources */,
+				7C2C5513A849B48494061C05 /* TorManager.swift in Sources */,
+				D8FB3759FDB940B94FFCECB8 /* TorModels.swift in Sources */,
+				39C18FA5FDAA3539F30FDE02 /* TorParser.swift in Sources */,
+				DF33FFE15458C5044BC58AE5 /* TorViewModel.swift in Sources */,
+				8B02B9F84F282E259D34FD0A /* ToriiApp.swift in Sources */,
+				3BC334E99D0E1185E0AB2244 /* UpdateChecker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44B5A7CBA7A0E319336E5FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		6EC5685719552E8014F333E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Torii/Torii.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Torii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torii.app;
+				PRODUCT_NAME = Torii;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		83B052ACFB48887131968453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		FE3FADA0F780CED89F56FC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Torii/Torii.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Torii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.torii.app;
+				PRODUCT_NAME = Torii;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2FD54C1BD4921584DA292C1 /* Build configuration list for PBXProject "Torii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B5A7CBA7A0E319336E5FF8 /* Debug */,
+				83B052ACFB48887131968453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E59ECC6187B6929BA4FF6C6E /* Build configuration list for PBXNativeTarget "Torii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3FADA0F780CED89F56FC67 /* Debug */,
+				6EC5685719552E8014F333E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 774BB8139594890CA2EF19A0 /* Project object */;
+}
