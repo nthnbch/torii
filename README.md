@@ -16,8 +16,6 @@
   <img src="assets/screenshots/disconnected.png" width="280" alt="Disconnected">
 </div>
 
-> Save your screenshots as `assets/screenshots/connected.png` and `assets/screenshots/disconnected.png`.
-
 ## Features
 
 - **One-click connect / disconnect** — starts and stops the bundled Tor process
